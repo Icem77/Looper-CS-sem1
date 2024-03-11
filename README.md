@@ -3,7 +3,7 @@
 The following program is an implementation of the Looper language.
 
 The program reads and executes commands:
-💭 Printing the value of a variable.
+\n💭 Printing the value of a variable.
 💭 Executing a program in the Looper language.
 💭 Before executing the first command, the values of all variables are set to 0.
 💭Variables retain their values after executing a command. They are not reset before each program execution.
