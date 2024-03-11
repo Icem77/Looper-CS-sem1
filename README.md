@@ -3,18 +3,18 @@
 The following program is an implementation of the Looper language.
 
 The program reads and executes commands:
-\n💭 Printing the value of a variable.
+💭 Printing the value of a variable.
 💭 Executing a program in the Looper language.
 💭 Before executing the first command, the values of all variables are set to 0.
 💭Variables retain their values after executing a command. They are not reset before each program execution.
 
-💭 The syntax of the language is described by the grammar with the starting symbol Program:
-Program → SequenceOfInstructions
-SequenceOfInstructions → ε | SequenceOfInstructions Instruction
-Instruction → Increment | Repeat
-Increment → Variable
-Repeat → '(' Variable SequenceOfInstructions ')'
-Variable → 'a' | .. | 'z'
+The syntax of the language is described by the grammar with the starting symbol Program:
+💭 Program → SequenceOfInstructions
+💭 SequenceOfInstructions → ε | SequenceOfInstructions Instruction
+💭 Instruction → Increment | Repeat
+💭 Increment → Variable
+💭 Repeat → '(' Variable SequenceOfInstructions ')'
+💭 Variable → 'a' | .. | 'z'
 
 💭 The program consists of characters enclosed in apostrophes as defined in the grammar. Apart from them, no other characters, not even spaces or line breaks, can appear in the source code. The program has access to 26 variables, whose values are non-negative integers.
 
