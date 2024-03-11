@@ -45,3 +45,6 @@ Each output line ends with a newline character.
 Memory overflow will not occur during program execution.
 The length of the program in the Petlik language will not exceed INT_MAX - 1.
 Decimal representations of variable values will have fewer than 1000 digits.
+
+❗In the code, both variable names and comments are in Polish because this program was one of the projects for the first semester of computer science studies. Sorry for the inconvenience.❗️
+
